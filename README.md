@@ -1,5 +1,6 @@
 # MailerSend Codex Plugin
 
+Hi there :-) 
 This is a local Codex plugin for MailerSend. It adds MailerSend MCP tools and a Codex skill for transactional email workflows.
 
 - A plugin manifest at `.codex-plugin/plugin.json`
@@ -30,6 +31,8 @@ The server uses `https://api.mailersend.com/v1` by default. For tests or proxies
 ```bash
 export MAILERSEND_BASE_URL="https://api.mailersend.com/v1"
 ```
+
+Note: There's also a .env.example file for dev purposes.
 
 ## Test
 
