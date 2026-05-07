@@ -1,0 +1,40 @@
+{
+  "name": "mailersend",
+  "version": "0.1.0",
+  "description": "MailerSend tools for sending transactional email, checking domains, and reading delivery activity.",
+  "author": {
+    "name": "Local Codex User",
+    "email": "replace-me@example.com",
+    "url": "https://developers.mailersend.com/"
+  },
+  "homepage": "https://developers.mailersend.com/",
+  "repository": "https://developers.mailersend.com/",
+  "license": "MIT",
+  "keywords": [
+    "mailersend",
+    "email",
+    "transactional-email"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "MailerSend",
+    "shortDescription": "Send and inspect transactional email through MailerSend.",
+    "longDescription": "Adds MailerSend MCP tools for sending transactional email, validating recipients, listing domains, checking DNS verification data, and reading domain activity.",
+    "developerName": "Local Codex User",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.mailersend.com/",
+    "privacyPolicyURL": "https://www.mailersend.com/legal/privacy-policy",
+    "termsOfServiceURL": "https://www.mailersend.com/legal/terms-of-service",
+    "defaultPrompt": [
+      "Send a test email with MailerSend.",
+      "List my MailerSend domains.",
+      "Check recent activity for a MailerSend domain."
+    ],
+    "brandColor": "#2E7CF6"
+  }
+}

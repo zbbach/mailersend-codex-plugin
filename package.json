@@ -1,0 +1,13 @@
+{
+  "name": "codex-mailersend-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "mcp": "node ./scripts/mailersend-mcp.mjs",
+    "smoke": "node ./scripts/smoke-test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

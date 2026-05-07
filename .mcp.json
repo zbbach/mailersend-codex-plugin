@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "mailersend": {
+      "command": "node",
+      "args": [
+        "./scripts/mailersend-mcp.mjs"
+      ],
+      "env": {
+        "MAILERSEND_API_TOKEN": "${MAILERSEND_API_TOKEN}"
+      }
+    }
+  }
+}
